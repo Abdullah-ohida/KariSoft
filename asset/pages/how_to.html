@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Register</title>
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e2052a1ca7.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/asset/css/finance.css">
+    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="/asset/css/how_to.css">
+</head>
+
+<body>
+    <nav>
+        <a class="logo" href="/index.html">
+            <img src="/asset/images/logo.png" alt="Logo" class="logo-img">
+            <img src="/asset/images/logoName.png" alt="Logo-Name" class="logo-name">
+        </a>
+        <a class="toggle" href="/asset/pages/how_to.html">
+            <img src="/asset/images/toggle.svg" alt="">
+        </a>
+    </nav>
+
+    <div class="text-content">
+        <div class="title">
+            <div class="head-title">
+                <h1>How to Register</h1>
+                <i class="fas fa-chevron-down icon"></i>
+            </div>
+
+            <ul class="link">
+                <li><a href="/asset/pages/investor.html"> Register as an investor</a>
+                </li>
+                <li><a href="/asset/pages/register.html">Register as a trader</a></li>
+                <li><a href="/asset/pages/student.html">Register as a student</a></li>
+            </ul>
+        </div>
+
+        <div class="platform">
+            <img src="/asset/images/build.png" alt="Platform">
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="media">
+            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"> <i class="fab fa-instagram"></i></a>
+
+        </div>
+        <div class="footer">
+            <li>© 2020 All Rights Reserved</li>
+            <li>PRIVACY POLICY</li>
+            <li>COOKIE POLICY</li>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector(".icon").addEventListener("click", () => {
+            const link = document.querySelector(".link");
+            link.classList.toggle("active")
+        })
+    </script>
+</body>
+
+</html>

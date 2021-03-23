@@ -1,0 +1,56 @@
+
+
+body {
+  background: linear-gradient(rgba(17, 6, 179, 0.8), rgba(22, 5, 255, 0.8)),
+    url(/asset/images/lf30_cgthmey3.json].jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+
+
+.container .logo {
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+.container .logo-img {
+  width: 100px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation button, .navigation a{
+  margin-left: 1.7rem;
+  padding: 0.8rem 1.4rem;
+  background-color: transparent;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.5s linear;
+}
+
+.navigation a:hover {
+  background-color: rgb(197, 6, 6);
+  color: white;
+  border: none;
+}
+
+
+.navigation span {
+  font-weight: bold;
+}
+
