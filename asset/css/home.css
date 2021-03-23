@@ -18,7 +18,6 @@ body {
 
 
 .container .logo {
-  margin-bottom: 2rem;
   margin-left: 3rem;
 }
 
@@ -29,6 +28,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .navigation button, .navigation a{
